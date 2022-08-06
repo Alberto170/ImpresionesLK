@@ -1,0 +1,64 @@
+/* Variables CSS */
+:root {
+    --primary-color: #e65100;
+    --secondary-color: #0be662;
+    --black: #343232;
+    --white: #F3EDED;
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* Utilidades */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Start */
+html {
+    font-size: 62.%;
+    background-color: var(--white);
+    font-family: var(--font-family);
+}
+
+body {
+    /* 1rem = 10px */
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 20px 0 20px;
+    padding: 5px;
+}
+
+/* Header */
+header {
+    background-color: var(--black);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.L{
+    color: aqua;
+}
