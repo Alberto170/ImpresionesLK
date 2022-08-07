@@ -8,25 +8,50 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/bed06cc9cc.js" crossorigin="anonymous"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="nav-container container ">
-            <p class="logo"><span class="L">L</span><span class="k">K</span></p>
-            <nav class="nav-principal-container">
-                <li class="nav-principal-item"><a href="/">Home</a></li>
-                <li class="nav-principal-item"><a href="/">Nosotros</a></li>
-                <li class="nav-principal-item"><a href="/">Servicios</a></li>
-                <li class="nav-principal-item"><a href="/">Catalogo</a></li>
+        <div class="nav-container">
+            <nav class="container">
+                <a href="index.html"><img src="img/logo.png" alt="logo de ImpresionesLK"></a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="#">NOSOTROS</a></li>
+                        <li><a href="#">SERVICIOS</a></li>
+                        <li><a href="#">TRABAJOS</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
             </nav>
         </div>
+        <section>
+            <div class="banner container">
+                <!-- <h1>Tenemos una gran variedad de <span>SERVICIOS</span> <hr> para que obtengas la mejor</h1> -->
+                <div class="banner-text">
+                    <h1><span>IMPRESIONES</span> seguras <br> y a la medida</h1>
+                    <p>Mandamos tu mensaje y podemos realizar tu cotizacion a la medida y ofrecerte la mejor solución.</p>
+                    <a href="">Realizar presupuesto<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
     </header>
+    <main>
+        <div class="main-container container">
+            <p>asdasdasdsd</p>
+        </div>
+    </main>
 </body>
+<script src="js/index.js"></script>
 
 </html>
