@@ -1,7 +1,9 @@
 /* VARIABLES */
 :root {
     --primary-color: #F8990C;
+    --orange: #e69a08;
     --secondary-color: #0be662;
+    --green: #1fbf75;
     --complmentary-color: #35e7f4;
     --blue: #33a9ff;
     --black: #343232;
@@ -328,35 +330,61 @@ footer {
 /* Help */
 .help {
     color: var(--white-secondary);
-    background: var(--black-tertiary);
+    background: var(--blue);
     text-align: center;
     padding: 1rem;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border-radius: 1rem;
     /* height: 100vh; */
 }
 
 .help-tittle {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .help-contaier {
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
     flex-basis: 1rem;
+    padding: 2rem;
 }
 
 .help-text {
     color: var(--black-secondary);
-    background: var(--white-secondary);
-    text-align: left;
+    /* background: var(--white-secondary); */
+    text-align: justify;
     font-size: 1.5rem;
     width: 50%;
+    line-height: 2.3rem;
+}
+
+.help-btn-container {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.help-text-btn {
+    background: var(--black-tertiary);
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .help-img {
     width: 50%;
-    /* background: var(--secondary-color); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
-.fa-solid{
-    color: var(--white-secondary);
+.help-img-item {
+
+}
+
+.help-img-item>img {
+    max-width: 100%;
+    height: 5.5rem;
+    margin-bottom: 1rem;
 }
